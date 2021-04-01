@@ -8,7 +8,6 @@ FILENAME = "subject_data.txt"
 
 def main():
 
-    data = []
     data = get_data()
     print(data)
 
