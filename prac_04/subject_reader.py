@@ -36,8 +36,6 @@ def get_data():
 
 def print_data(data):
 
-    print("The length of the data is {}".format(len(data)))
-    # print(data)
 
     for element in data:
 
