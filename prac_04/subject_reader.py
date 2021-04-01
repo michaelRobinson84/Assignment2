@@ -9,7 +9,9 @@ FILENAME = "subject_data.txt"
 def main():
 
     data = get_data()
-    print(data)
+
+    print_data(data)
+
 
 
 def get_data():
@@ -31,6 +33,18 @@ def get_data():
     input_file.close()
 
     return subject_data
+
+def print_data(data):
+
+    print("The length of the data is {}".format(len(data)))
+    # print(data)
+
+    for element in data:
+
+        print("{} is taught by {} and has {} students".format(element[0], element[1], element[2]))
+
+
+
 
 
 main()
