@@ -42,7 +42,4 @@ def print_data(data):
         print("{} is taught by {} and has {} students".format(element[0], element[1], element[2]))
 
 
-
-
-
 main()
